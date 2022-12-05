@@ -1,0 +1,23 @@
+{
+  "name": "legal-holidays-cn",
+  "version": "1.0.4",
+  "description": "Judge whether a data is a legal holiday in China",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "\t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https:undefined.com"
+  },
+  "keywords": [
+    "js",
+    "china",
+    "holiday"
+  ],
+  "author": "SQL",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}
