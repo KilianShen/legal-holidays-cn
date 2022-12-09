@@ -1,10 +1,10 @@
 interface Holidays {
-    desc: string;
-    date: string[];
-    days: number;
+    readonly desc: string;
+    readonly date: string[];
+    readonly days: number;
 }
-export declare const isHoliday: (val: string) => boolean;
-export declare const getHolidaysDetailByYears: () => Holidays[];
-export declare const getHolidaysByYears: () => string[];
-export declare const getHolidayInfo: (val: string) => any;
+export declare const isHoliday: (val: string, year?: "2023" | "2022") => boolean;
+export declare const getHolidaysByYears: (year?: "2023" | "2022") => string[];
+export declare const getHolidaysDetailByYears: (year?: "2023" | "2022") => Holidays[];
+export declare const getHolidayInfo: (val: string, year?: "2023" | "2022") => any;
 export {};
